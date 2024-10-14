@@ -1,4 +1,3 @@
-useCallback.md
 The `useCallback` hook in React is used to memoize a function, ensuring that the same instance of the function is returned between re-renders unless its dependencies change. This helps optimize performance by preventing unnecessary re-creations of the function, especially when passing functions as props to child components or using them in hooks like `useEffect`.
 
 ### Syntax
